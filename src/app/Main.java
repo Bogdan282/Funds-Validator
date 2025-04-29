@@ -7,7 +7,7 @@ public class Main {
     static double balance;
 
     public static void main(String[] args) {
-        balance = 1000;
+        balance = getBalance();
         validateAmount(balance, getAmount());
     }
 
