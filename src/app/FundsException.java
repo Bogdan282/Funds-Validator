@@ -1,9 +1,9 @@
 package app;
 
 // Кастомний виняток
-public class FundsException extends  {
+public class FundsException extends RuntimeException{
 
     public FundsException(String message) {
-        super();
+        super(message);
     }
 }
